@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Formulario</title>
+    <style>
+        .paragrafo{
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        .linha label {
+            min-width: 80px;
+        }
+        .espaço{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cadastro cadastral</h1>
+    <form action="/action_page.php">
+
+        <div class="paragrafo">
+            <div class="espaço">
+        <label for="Nome">Nome:</label><br>
+        <input type="text" id="Nome" name="nome1" value=""><br><br>
+        </div>
+            <div class="espaço">
+        <label for="sobrenome">Sobrenome:</label><br>
+        <input type="text" id="sobrenome" name="sobrenome1" value=""><br><br>
+        </div>
+           </div>
+
+        <div class="paragrafo">
+            <div class="espaço">
+        <label for="endereco">Endereço:</label><br>
+        <input type="text" id="endereco" name="endereco1" value=""><br><br>
+            </div>
+            
+        <div class="espaço">
+        <label for="numero">Número</label><br>
+        <input type="text" id="num" name="num1" value=""><br><br>
+
+        </div>
+        </div>
+
+        <div class="paragrafo">
+            <div class="espaço">
+                <label for="telefone">Numero de telefone:</label><br>
+                <input type="text" id="telefone" name="telefone1" value=""><br><br>
+            </div>
+        </div>
+
+        <input type="submit" value="Enviar"><br><br>
+
+      </form>
+
+      <form>
+        <input type="radio" id="sexo" name="sexo" value="Masculino">
+        <label for="Masculino">Masculino</label><br>
+        <input type="radio" id="Feminino" name="sexo" value="Feminino">
+        <label for="feminino">Feminino</label><br>
+        <input type="radio" id="Tartaruga" name="sexo" value="Tartaruga">
+        <label for="javascript">Tarturuga</label>
+      </form>
+
+      <div class="paragrafo">
+        <div class="espaço">
+      <button>
+        enviar
+      </button>
+      </div>
+      <div class="espaço">
+        <button>
+            cancelar
+        </button>
+      </div>
+      
+
+
+    
+</body>
+</html>
